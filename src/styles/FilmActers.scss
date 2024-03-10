@@ -1,0 +1,30 @@
+
+#film {
+  padding: 30px 0;
+  .film {
+    display: flex;
+    align-items: flex-start;
+    overflow-x: scroll;
+    gap: 30px;
+    width: 1200px;
+    height: 210px;
+    padding: 5px;
+
+    &--read {
+      display: flex;
+      flex-direction: column;
+      height: 170px;
+      box-shadow: 10px 0 10px 2px rgba(3, 89, 79, 0.406);
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+
+      h1 {
+        font-size: 10px;
+        font-weight: 500;
+        color: blue;
+      }
+    }
+  }
+}

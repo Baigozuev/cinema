@@ -1,0 +1,53 @@
+#popular {
+  padding: 50px 0;
+  .loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  select {
+    padding: 5px 25px;
+    color: white;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  .popular {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 90px;
+  }
+
+  .pagination {
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    button {
+      font-size: 20px;
+      font-weight: 600;
+      padding: 10px 35px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 10px 5px rgba(5, 5, 115, 0.628);
+      background: rgb(29, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(29, 0, 36, 1) 0%,
+        rgba(44, 78, 186, 1) 0%,
+        rgba(63, 36, 238, 0.9567567567567568) 0%,
+        rgba(56, 29, 198, 1) 1%,
+        rgba(50, 12, 230, 1) 37%,
+        rgba(34, 68, 241, 1) 39%,
+        rgba(71, 141, 214, 1) 74%,
+        rgba(7, 80, 142, 1) 92%,
+        rgba(0, 212, 255, 1) 100%
+      );
+    }
+  }
+}

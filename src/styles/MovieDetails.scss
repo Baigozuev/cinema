@@ -1,0 +1,131 @@
+#details {
+  padding: 50px 0;
+  .details {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    img {
+      -webkit-box-shadow: 8px -6px 60px 33px rgba(178, 180, 182, 0.85);
+      -moz-box-shadow: 8px -6px 60px 33px rgba(178, 180, 182, 0.85);
+      box-shadow: 8px -6px 60px 33px rgba(178, 180, 182, 0.85);
+      cursor: pointer;
+    }
+  }
+  .details--content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+    margin-left: 50px;
+    color: white;
+  }
+  .details--content h1 {
+    color: white;
+  }
+  .details--content h1 span {
+    color: rgba(255, 255, 255, 0.55);
+  }
+  .data h3 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.887);
+  }
+  .icons {
+    cursor: pointer;
+  }
+  .icons h4 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px 0;
+    font-size: 20px;
+    color: white;
+  }
+  .icons h5 {
+    font-size: 50px;
+    font-weight: 800;
+  }
+  .icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: blue;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+  }
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  .icon2 {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+  }
+  .icon3 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background: blue;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+  }
+  .icon3:hover {
+    transform: scale(1.1);
+  }
+  .icon4 {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+  }
+  text {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  h6 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .block h4 {
+    display: flex;
+    align-items: center;
+  }
+  a {
+    color: white;
+  }
+
+  .modals {
+    width: 600px;
+    height: 600px;
+    background: white;
+    position: absolute;
+    z-index: 66;
+    top: 70px;
+    left: 500px;
+    margin-left: 100px;
+    margin: 50px 0;
+    display: none;
+  }
+  .modal--bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    min-height: 500px;
+  }
+  .modal {
+    position: absolute;
+    top: 3px;
+    right: -2px;
+  }
+}

@@ -1,0 +1,22 @@
+.movieCard {
+  width: 19%;
+  height: 600px;
+  // border: 3px solid rgba(106, 5, 117, 0.638);
+  box-shadow: 10px 10px 10px 10px rgba(72, 72, 72, 0.383);
+  text-align: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  img {
+    transition: 0.8s;
+    cursor: pointer;
+    width: 337px;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  h2 {
+    margin: 18px 0;
+  }
+}
